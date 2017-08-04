@@ -6,6 +6,10 @@ project!<br>I am stemming this off from freShell. This is only to be used
 for Educational Purposes,<br>not for illegal purposes.
 
 
+Current BUG: 8/3/2017
+
+- Doesn't properly close all processes when exiting program
+
 Menu: (Under Construction)
 
 1. Shows All Targets\t(Done)
