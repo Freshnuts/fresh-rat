@@ -12,8 +12,8 @@ Current BUG: 8/3/2017
 
 Menu: (Under Construction)
 
-1. Shows All Targets(Done)
-2. Choose Target(Done)
+1. Shows All Targets (Done)
+2. Choose Target (Done)
     - Interactive Shell (Currently Under Construction)
 3. Download File (Module Completed, needs implementation)
 4. Upload File (Module completed, needs implementation)
