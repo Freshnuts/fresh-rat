@@ -49,10 +49,9 @@ def client_p(conn):
         else:
             print "client_p() Error"
             print "Removing Client: %s %s" % (addr[0], addr[1])
-            # pop() removes final last element in list.
-            # Works correct except for debugging on 127.0.0.1,
+            # remove() == true except for debugging on 127.0.0.1,
             # if 3x localhost connects, server will delete the
-            # first 127.0.0.1 found on list, regardless on client #3.
+            # first 127.0.0.1 found on list, regardless if on client #3.
             l.remove(str(addr[0]))
             l.remove(str(addr[1]))
             print l
@@ -77,9 +76,6 @@ def asc(l):
         except socket.error:
             print "Cannot accept Target."
         time.sleep(1)
-
-
-
 
 # Process 1   - Main menu loop
 # Process 2   - asc(l) (Accept Clients Function)
